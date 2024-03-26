@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Little Painter</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='stylesheets/style.css'>
+</head>
+<body>
+	<section class="board">
+		<div id="layers">
+			<canvas id="layer1" class="layer"></canvas>
+			<canvas id="UI" class="layer"></canvas>
+		</div>	
+
+		<label for="weightRange">Color :</label>
+		<input type="color" id="colorSelector">
+
+		<label>--------------------</label>
+
+		<label for="weightRange" id="weightL">Line Weight :</label>
+		<input type="number" id="weightRange">
+
+		<label>--------------------</label>
+
+		<label for="weightRange" id="eraseL"> Eraser Line Weight :</label>
+		<input type="number" id="eraseRange">
+		<button id="erase">Eraser</button>
+		<button id="clear">Clear</button>
+	</section>
+	<script src="scripts/main.js"></script>
+</body>
+</html>

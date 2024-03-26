@@ -1,0 +1,31 @@
+
+
+
+
+body {
+	overflow: hidden;
+	background-color: black;
+}
+
+.board {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#layers {
+	width: 1024px;
+	height: 480px;
+	background-color: white;
+	border: solid 10px black;
+
+	cursor: none;
+}
+
+.layer {
+	position: absolute;
+}
+
+label {
+	color: white;
+}
